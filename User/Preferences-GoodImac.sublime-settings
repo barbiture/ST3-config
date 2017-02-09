@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"ignored_packages":
+	[
+		"Better CoffeeScript",
+		"Coffee Color Scheme",
+		"Comment-Snippets",
+		"CSS Comments",
+		"DocBlockr",
+		"Emmet",
+		"FileSystem Autocompletion",
+		"GitGutter",
+		"Ionic Snippets",
+		"LESS",
+		"List LESS Variables",
+		"Vintage"
+	]
+}

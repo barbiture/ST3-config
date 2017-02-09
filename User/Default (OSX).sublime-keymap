@@ -1,0 +1,4 @@
+[
+{ "keys": ["command+/"], "command": "toggle_comment", "args": { "block": false } },
+{ "keys": ["command+shift+/"], "command": "toggle_comment", "args": { "block": true } }
+]
