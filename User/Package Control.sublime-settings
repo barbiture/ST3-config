@@ -6,9 +6,36 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AutoFileName",
+		"Babel",
+		"BEMHTML",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Comment-Snippets",
+		"Ecmascript Syntax",
+		"Emmet",
+		"GitGutter",
+		"Gutter Color",
+		"HTML-CSS-JS Prettify",
+		"Increment Selection",
+		"JavaScript Completions",
+		"JavaScript Snippets",
+		"JavaScriptNext - ES6 Syntax",
+		"LESS",
+		"LoremIpsum",
 		"Material Theme",
 		"Material Theme - Appbar",
+		"Minify",
 		"One Dark Material - Theme",
-		"Package Control"
+		"Package Control",
+		"Sass",
+		"SCSS",
+		"SublimeCodeIntel",
+		"SublimeLinter-contrib-sass-lint",
+		"Todo",
+		"TodoReview",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
 	]
 }
