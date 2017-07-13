@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+    module.exports = (gulp, run) ->
+
+      () ->
+
+        gulp.src './views/*.jade'
+        # .pipe run.notify 'Compiling scripts...'
+        # .pipe run.coffee bare : true
+        .pipe gulp.dest './dist/'
+        .pipe do connect.reload
+        # .pipe run.notify 'Scripts compiled'
+        .on 'end', () ->
+          run.util.log ''
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>gModuleEx</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
