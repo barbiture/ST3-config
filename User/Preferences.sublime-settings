@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"auto_complete": true,
+	"auto_complete": false,
 	"bold_folder_labels": false,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
@@ -15,7 +15,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"JavaScript Completions"
+		"SublimeLinter-coffee",
+		"SublimeLinter-contrib-sass-lint"
 	],
 	"indent_guide_options":
 	[
