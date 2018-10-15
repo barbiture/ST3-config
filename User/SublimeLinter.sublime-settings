@@ -1,0 +1,42 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+		"eslint": {
+		"@disable": false,
+		"args": [],
+		"excludes": []
+		}
+	},
+	"syntax_map": {
+		"coffeescript (gulpfile)": "coffeescript",
+		"javascript (babel)": "javascript",
+		"javascript (eslint)": "javascript",
+		"javascript (gruntfile)": "javascript",
+		"javascript (gulpfile)": "javascript",
+		"javascript (postcss)": "javascript",
+		"javascript (puglint)": "javascript",
+		"javascript (stylelint)": "javascript",
+		"javascript (webpack)": "javascript",
+		"json (babel)": "json",
+		"json (bower)": "json",
+		"json (composer)": "json",
+		"json (eslint)": "json",
+		"json (npm)": "json",
+		"json (postcss)": "json",
+		"json (puglint)": "json",
+		"json (settings)": "json",
+		"json (stylelint)": "json",
+		"json (sublime)": "json",
+		"json (tern js)": "json",
+		"xml (config)": "xml",
+		"xml (svg)": "xml",
+		"yaml (circleci)": "yaml",
+		"yaml (docker)": "yaml",
+		"yaml (eslint)": "yaml",
+		"yaml (lock)": "yaml",
+		"yaml (procfile)": "yaml",
+		"yaml (stylelint)": "yaml",
+		"yaml (yarn)": "yaml"
+	},
+	"statusbar.show_active_linters": false
+}

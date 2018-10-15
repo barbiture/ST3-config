@@ -1,0 +1,8 @@
+{
+	"chrome_path": {
+		"osx": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
+	},
+	"chrome_remote_port": "3000",
+	"chrome_url": "http://localhost:3000",
+	"debug_mode": false,
+}

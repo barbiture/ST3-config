@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = () => (
+	${3:<div>${0}</div>}
+);
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rcm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

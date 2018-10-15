@@ -1,4 +1,12 @@
 [
-{ "keys": ["command+/"], "command": "toggle_comment", "args": { "block": false } },
-{ "keys": ["command+shift+/"], "command": "toggle_comment", "args": { "block": true } }
+  { "keys": ["d", "f"], "command": "exit_insert_mode",
+      "context":
+      [
+        {"key": "setting.command_mode", "operand": false},
+        {"key": "setting.is_widget", "operand": false}
+      ]
+  },
+  { "keys": ["command+/"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["command+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["ctrl+shift+'"], "command": "change_quotes" }
 ]
