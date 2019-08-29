@@ -22,9 +22,13 @@
 		"Comment-Snippets",
 		"Ecmascript Syntax",
 		"Emmet",
+		"ESLint",
 		"GitGutter",
 		"Gutter Color",
+		"HighlightWords",
 		"HTML-CSS-JS Prettify",
+		"Import Cost",
+		"ImportHelper",
 		"Increment Selection",
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
@@ -39,14 +43,9 @@
 		"SCSS",
 		"Status Bar File Size",
 		"SublimeCodeIntel",
-		"Terminal",
 		"Terminus",
 		"Theme - Spacefunk",
-		"Todo",
 		"TodoReview",
-		"TypeScript",
-		"Vue Syntax Highlight",
-		"Vuejs Complete Package",
-		"Vuejs Snippets"
+		"TypeScript"
 	]
 }

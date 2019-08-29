@@ -8,5 +8,49 @@
   },
   { "keys": ["command+/"], "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["command+shift+/"], "command": "toggle_comment", "args": { "block": true } },
-  { "keys": ["ctrl+shift+'"], "command": "change_quotes" }
+  { "keys": ["ctrl+shift+'"], "command": "change_quotes" },
+  // KeymapEnhanced:
+// Should be in User/Default ().sublime-keymap to avoid conflicts with
+// Terminal plugin
+
+{
+  "keys": ["ctrl+shift+t"],
+  "command": "reopen_last_file"
+},
+
+// JointStatement:
+// Next two mappings should be in User/Default ().sublime-keymap to avoid
+// conflicts with Terminal plugin
+{
+  "keys": ["ctrl+alt+shift+t"],
+  "command": "unjoin_statement",
+  "args": {
+    "as_arguments": false
+  },
+  "context": [
+    {"key": "in_arguments", "operator": "equal", "operand": false}
+  ]
+},
+
+{
+  "keys": ["ctrl+alt+shift+t"],
+  "command": "unjoin_statement",
+  "args": {
+    "as_arguments": true
+  },
+  "context": [
+    {"key": "in_arguments", "operator": "equal", "operand": true}
+  ]
+},
+
+// Expression:
+// should be in User/Default ().sublime-keymap to avoid [ctrl+k, ...] calls
+{
+  "keys": ["ctrl+k"],
+  "command": "run_macro_file",
+  "args": {
+    "file": "res://Packages/Expression/macro/goto_block_down.sublime-macro"
+  },
+},
+
 ]

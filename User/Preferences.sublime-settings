@@ -1,6 +1,7 @@
 {
+	// "auto_complete": false,
 	"always_show_minimap_viewport": true,
-	"auto_complete": false,
+	"auto_complete": true,
 	"bold_folder_labels": false,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
@@ -15,12 +16,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"JavaScriptNext - ES6 Syntax",
 		"Material Theme",
 		"Material Theme - Appbar",
-		"One Dark Material - Theme",
-		"Vue Syntax Highlight",
-		"Vuejs Snippets"
+		"One Dark Material - Theme"
 	],
 	"indent_guide_options":
 	[
